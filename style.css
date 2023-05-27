@@ -1,0 +1,84 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 550px;
+  margin: auto;
+  font-family: Inter, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.hero {
+  padding: 30px;
+  min-height: 300px;
+  background: #6943fe;
+  color: #ffffff;
+
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: 20px, 25px, 20px;
+  gap: 10px;
+  justify-items: center;
+}
+
+.hero-title {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.hero input {
+  width: 117px;
+  padding: 5px;
+  background: transparent;
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 58px;
+  font-weight: 800;
+  text-align: center;
+  border: 2px solid #b295ff;
+  border-radius: 5px;
+
+  align-self: center;
+}
+
+.hero button {
+  width: 117px;
+  height: 45px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #3d3d3d;
+  border-radius: 5px;
+  align-self: center;
+}
+
+.main {
+  padding: 20px;
+  background: #f4f4f4;
+
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.section {
+  padding: 5px;
+  background: #ffffff;
+}
+
+.section .title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #5a537b;
+}
+
+.section .answer {
+  font-size: 14px;
+  font-weight: 400;
+  color: #353535;
+}
